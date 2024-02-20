@@ -4,7 +4,7 @@ import java.sql.Statement;
 
 public class jdbc1 {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/mydb";
+        String url = "jdbc:mysql://localhost:3306/";
         String user = "root";
         String password = "Dhruvil@23";
         try {
@@ -13,7 +13,7 @@ public class jdbc1 {
             Connection cn = DriverManager.getConnection(url, user, password);
             // System.out.println("Connection established successfully");
             Statement stm = cn.createStatement();
-            String query = "CREATE DATABASE IF NOT EXISTS mydb4";
+            String query = "CREATE DATABASE IF NOT EXISTS mydb45";
             stm.execute(query);
             System.out.println("Database created successfully");
             cn.close();

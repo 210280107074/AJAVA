@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 class student {
     public void createTable() {
-        String url = "jdbc:mysql://localhost:3306/mydb";
+        String url = "jdbc:mysql://localhost:3306/mydb45";
         String user = "root";
         String password = "Dhruvil@23";
         try {
@@ -28,6 +28,7 @@ class student {
         try {
             Connection cn = DriverManager.getConnection(url, user, password);
             String query = "insert into student (sid,name,enrollment,semester) values (?,?,?,?)";
+    
             PreparedStatement pstm = cn.prepareStatement(query);
             pstm.setInt(1, 4);
             pstm.setString(2, "henil");
