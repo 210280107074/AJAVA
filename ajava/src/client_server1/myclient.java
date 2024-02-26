@@ -7,7 +7,7 @@ import java.net.Socket;
 public class myclient {
     public static void main(String[] args) throws  IOException {
         while(true){
-            try (Socket s = new Socket("localhost",4567)) {
+            try (Socket s = new Socket("localhost",3456)) {
                 BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
                 String str = br.readLine();
                 System.out.println(str);
