@@ -1,4 +1,4 @@
-package client_server2.client_server4;
+package jdbc.client_server4;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
