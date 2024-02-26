@@ -1,4 +1,4 @@
-package ajava.client_server4;
+package client_server2.client_server4;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
