@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class temp {
+public class server {
     static class ClientHandler extends Thread{
         private Socket s = null;
         ClientHandler(Socket clientSocket){

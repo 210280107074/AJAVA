@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.net.*;
 import java.util.Scanner;
 import java.io.*;
-public class temp3 {
+public class client2{
     public static void main(String[] args) throws IOException{
         Socket s = new Socket("localhost",1234);
         DataInputStream dis = new DataInputStream(s.getInputStream());

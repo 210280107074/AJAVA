@@ -1,4 +1,4 @@
-package jdbc.client_server4;
+// package jdbc.client_server4;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -9,7 +9,7 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-public class client {
+public class client11 {
     public static void main(String[] args) throws UnknownHostException, IOException {
         Socket s = new Socket("localhost",3456);
         DataInputStream din = new DataInputStream(s.getInputStream());

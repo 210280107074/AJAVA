@@ -8,10 +8,7 @@ public class operator {
         System.out.println();
         Scanner sc = new Scanner(System.in);
         boolean flag = true;
-        // String BookTitle = "haj";
-        // String Authorname  ;
-        // String Publisher  ;
-        // int Price  ;
+    
         int choice;
         while(flag){
             

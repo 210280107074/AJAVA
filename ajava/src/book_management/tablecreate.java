@@ -13,7 +13,7 @@ public class tablecreate {
                 Connection cn = DriverManager.getConnection(url, user, password);
                 // System.out.println("Connection established successfully");
                 Statement stm = cn.createStatement();
-                String query = "create table books(BookTitle varchar(20), Authorname varchar(20),Publisher varchar(20), Price int(20))";
+                String query = "create table books(BookTitle varchar(255), Authorname varchar(255),Publisher varchar(255), Price int(20))";
                 stm.execute(query);
                 System.out.println("table created");
             } catch (Exception e) {
